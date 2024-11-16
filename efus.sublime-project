@@ -1,0 +1,15 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"build_systems": [
+		{
+			"name": "Efus",
+			"cmd": ["julia", "$project_path/Main.jl"],
+			"file_regex": "\\@ (?:[^ ]+ )?(C\\:.+?)\\:(\\d+)",
+		}
+	],
+}
